@@ -2,7 +2,7 @@ const button = document.getElementById("button");
 
 const submitData = async () => {
   const response = await fetch(
-    "https://random-word-api.herokuapp.com/word?number=20"
+    "https://random-word-api.herokuapp.com/word?number=20" // just for example, replace it with original url
   );
   const data = await response.json();
   // implement a search function
